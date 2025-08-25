@@ -49,6 +49,13 @@ frm*_pro/
 *.ckpt
 checkpoint
 
+# Large model files (use Git LFS or external storage)
+models/lstm*.h5
+models/*.h5
+
+# Large notebook files
+code/notebooks/Gait.ipynb
+
 # Large datasets
 Dataset*/
 dataset*/
