@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files
+*.xlsx
+*.xls
+
+# Video files (too large for git)
+*.mp4
+*.MP4
+*.avi
+*.mov
+*.MOV
+
+# Large image folders (consider using Git LFS for important ones)
+frames*/
+frm*_pro/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Model checkpoints (keep final models only)
+*.ckpt
+checkpoint
+
+# Large datasets
+Dataset*/
+dataset*/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+
+# Documentation build
+docs/_build/
